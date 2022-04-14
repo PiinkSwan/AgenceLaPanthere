@@ -196,6 +196,11 @@ a:hover {
 cite{
     font-size: 18px;
 }
+@media (max-width: 768px) {
+   .description{
+       font-size: 15px;
+   }
+}
 .d-bloc .panel,
 .l-bloc {
     color: rgba(0, 0, 0, .5);
@@ -311,7 +316,13 @@ cite{
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 100px;
+    min-width: 188px;
+}
+@media (max-width: 768px) {
+    #img{
+        width: 100%;
+    }
+    
 }
 
 .nav-center .navbar-brand img {
