@@ -719,6 +719,9 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 h2 {
@@ -753,7 +756,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #ffffff!important;
+    font-weight: bold;
 }
 
 .portfolio-thumb {
