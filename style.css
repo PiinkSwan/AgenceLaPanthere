@@ -732,6 +732,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    
 }
 
 h3 {
@@ -745,14 +746,6 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
 }
 
 .icons {
@@ -802,6 +795,7 @@ h4 {
 
 .tc-white {
     color: #f3976c!important;
+    font-weight: 700;
 }
 
 .btn-atomic-tangerine {
