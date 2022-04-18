@@ -1436,7 +1436,7 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto
 }
 
@@ -1987,13 +1987,13 @@ pre code {
 
 @media (min-width:768px) {
     .container {
-        width: 750px
+        width: 100%;
     }
 }
 
 @media (min-width:992px) {
     .container {
-        width: 970px
+        width: 100%;
     }
 }
 
@@ -7796,7 +7796,7 @@ button.close {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    border-radius: 5rem;
+    border-radius: 10rem;
 
 }
 
